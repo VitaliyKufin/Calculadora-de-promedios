@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class PromedioTresCalificaciones {
+    public static void main(String[] args) {
+    Scanner sc = new java.util.Scanner(System.in);
+        System.out.println("Ingresar calificacion 1:");
+        int calificacion1 = sc.nextInt();
+        System.out.println("Ingresar calificacion 2:");
+        int calificacion2 = sc.nextInt();
+        System.out.println("Ingresar calificacion 3:");
+        int calificacion3 = sc.nextInt();
+        int promedio = (((calificacion1 + calificacion2 + calificacion3) / 3));
+        System.out.println("El promedio de las calificaciones es: " + promedio);
+    }
+}
